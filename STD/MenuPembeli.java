@@ -61,6 +61,7 @@ public class MenuPembeli {
 
     private void tampilkanRumah() {
         rumahTree.tampilkanRumah(); // Tampilkan data rumah dari RumahTree
+        InputUtilities.pressEnter();
     }
 
     private void beliRumah(Scanner scanner, User user) {
