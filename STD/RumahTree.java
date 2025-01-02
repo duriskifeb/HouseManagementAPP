@@ -45,7 +45,7 @@ public class RumahTree {
         if (root == null) {
             System.out.println("Belum ada rumah yang ditambahkan.");
         } else {
-            System.out.println("Daftar Rumah:");
+            System.out.println("Daftar Rumah yang di jual :");
             inOrderTraversal(root);
         }
     }

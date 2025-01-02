@@ -65,6 +65,9 @@ public class MenuPembeli {
     }
 
     private void beliRumah(Scanner scanner, User user) {
+        // Tampilkan daftar rumah yang tersedia
+        tampilkanRumah();
+
         System.out.print("Masukkan nama rumah yang ingin dibeli: ");
         String namaRumah = scanner.nextLine();
 
